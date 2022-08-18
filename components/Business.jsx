@@ -3,7 +3,6 @@ import React from 'react'
 import { features } from '../Constants'
 
 const FeatureCard = ({ icon, title, content, index }) => {
-    console.log(icon)
     return (
         <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} ${index === 1 ? "feature-card" : ""} feature-card-hover`} >
             <div className='w-[64px] h-[64px] rounded-full flexCenter'>
