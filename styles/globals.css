@@ -107,7 +107,7 @@
   }
 }
 
-.feature-card:hover {
+.feature-card,.feature-card-hover:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
@@ -184,4 +184,9 @@
 }
 .sectionInfo{
   @apply flex-1 flexStart flex-col
+}
+
+/* Button */
+.btn-primary{
+  @apply py-4 px-6 bg-blue-gradient font-poppins text-primary font-medium text-[18px] outline-none
 }
