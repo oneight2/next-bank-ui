@@ -25,6 +25,9 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    dropShadow: {
+      md: "0px 0px 10px #00f6ff",
+    },
   },
   plugins: [],
 };
